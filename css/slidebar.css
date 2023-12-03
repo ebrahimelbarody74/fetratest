@@ -395,15 +395,21 @@ body {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #eee;
+  background-color: #07d184;
   color: #777777;
   width: 100%;
   padding-left: 8px;
+
+  width: 100%;
+  padding-left: 8px;
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
 }
 
 .dropdown-container a:hover {
   background: #9999995e;
-  color: #777777;
+  color: #fff;
 }
 
 /* Optional: Style the caret down icon */

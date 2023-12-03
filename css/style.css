@@ -3006,7 +3006,7 @@ footer {
 @media (max-width: 500px) {
   .new-header .container {
     gap: 0.5rem !important;
-    justify-content: flex-start !important;
+    /* justify-content: flex-start !important; */
   }
   .new-header .buttons-header {
     width: 75% !important;
@@ -3106,7 +3106,7 @@ footer {
   text-decoration: none;
   display: block;
   font-size: 16px !important;
-  color: rgb(129, 129, 129) !important;
+  color: #fff !important;
 }
 
 .search-icon img {
