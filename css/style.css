@@ -1715,7 +1715,7 @@ main h2 {
 .next {
   box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.5) inset;
-  background-color: var(--btn-color);
+  background-color: var(--btn-color) !important;
   border-radius: 8px;
   color: #fff;
   width: 268.46px;
@@ -3101,7 +3101,7 @@ footer {
 }
 
 .dropdown-container a {
-  margin-right: 30px;
+  /* margin-right: 30px; */
   padding: 8px 16px;
   text-decoration: none;
   display: block;

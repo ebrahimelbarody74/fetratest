@@ -2,28 +2,98 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تصميم وجيات</title>
+
+  <!-- link css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/Article.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+  <!-- font awesome -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/meals.css">
-  <link rel="stylesheet" href="../css/slidebar.css">
-
-  <link rel="stylesheet" href="../css/style.css">
-  <title>
-    تصميم الوجبات
-
-  </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+  <!-- animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 
 <body>
   <section class="mt-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary   container " id="navbar">
+      <div class="container-fluid">
+        <div class="logo">
+          <a class="navbar-brand" href="indexLogin.html" style="width: 3rem;display: flex;justify-content: center;">
+            <img class="img-Logo" src="../assets/Logo.png" alt="logo" style="width: 100%;height: 100%;">
+          </a>
+        </div>
+        <!-- <i   id="toggleBtn" class="fa-solid fa-moon"></i> -->
+        <button style="border: none !important;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-bars"></i>
+
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indexLogin.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fastM.html">قياس الدهون </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meals.html"> تصميم الوجبات </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recieps.html"> الوصفات </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="posts.html"> البوستات </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pageVideo.html"> الفيديوهات </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pageVideo.html"> الفيديوهات </a>
+            </li>
+            <button class="dropdown-btn "
+              style="color: #fff;font-size: 1.5rem;width: fit-content;margin: auto;font-weight: bold;gap: 0.5rem;">
+              <i class="fa fa-caret-down"></i>
+              المقالات
+            </button>
+            <div class="dropdown-container">
+              <a href="ArticleTwo.html">المقال 1</a>
+              <a href="ArticleTwo.html">المقال 2</a>
+              <a href="ArticleTwo.html">المقال 3</a>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="sleeping.html"> مواعيد النوم </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="walking.html"> مواعيد المشي </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="size.html"> قياساتي </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html"> بياناتي </a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="side">
-      <div class="toggle-btn">
+      <div class="toggle-btn container">
         <div class="content to-be-fixed">
           <div class="new-header show-in-phone">
             <div class="container">
@@ -37,7 +107,6 @@
                   </div>
                   <input type="text" name="search" />
                 </div>
-
                 <div class="mode-change" id="toggleBtn">
                   <div class="active-mode-div" id="light-mode-div">
                     <svg class="active-mode-icon" id="light-mode-icon" xmlns="http://www.w3.org/2000/svg" width="17"
@@ -130,11 +199,11 @@
               </div>
             </div>
           </div>
-          <div class="content show-in-large">
+          <div class="content show-in-large container">
             <div class=" content-form " style="margin: 0;">
               <i style="color: #07d184 !important;width: 2rem;height: 2rem;" onclick="toggleSidebar()" id="sideBar"
                 class="fa-solid fa-bars icon-header"></i>
-              <h6> الصفحة الرئيسية </h6>
+              <h6> تصميم الوجبات </h6>
             </div>
             <div class="  ">
               <form action="" class="formAction">
@@ -228,11 +297,9 @@
 
 
             </div>
-          </div>s
+          </div>
         </div>
       </div>
-
-
       <div class="sideBar" id="closeSideBar">
         <button class="closeBtn" onclick="handleBtnClose()">X</button>
         <div class="logo">
@@ -266,77 +333,7 @@
         <a href="information.html">بياناتي</a>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary   " id="navbar">
-      <div class="container-fluid">
-        <div class="logo">
-          <a class="navbar-brand" href="indexLogin.html">
-            <img class="img-Logo" src="../assets/Logo.png" alt="">
-            <span> </span>
-          </a>
-        </div>
-        <!-- <i   id="toggleBtn" class="fa-solid fa-moon"></i> -->
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <i class="fa-solid fa-bars"></i>
-
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="indexLogin.html">الرئيسية</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="fastM.html">قياس الدهون </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="meals.html"> تصميم الوجبات </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="recieps.html"> الوصفات </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="posts.html"> البوستات </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pageVideo.html"> الفيديوهات </a>
-            </li>
-            <button class="dropdown-btn ">
-              <i class="fa fa-caret-down"></i>
-              المقالات
-            </button>
-            <div class="dropdown-container">
-              <a href="ArticleTwo.html">المقال 1</a>
-              <a href="ArticleTwo.html">المقال 2</a>
-              <a href="ArticleTwo.html">المقال 3</a>
-            </div>
-            <li class="nav-item">
-              <a class="nav-link" href="sleeping.html"> مواعيد النوم </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="walking.html"> مواعيد المشي </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="size.html"> قياساتي </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="information.html"> بياناتي </a>
-            </li>
-
-
-          </ul>
-          <div class="btn d-flex align-items-center">
-
-            <button>
-              <a style="text-decoration: none;" href="htmlpages2/register.html"> تسجيل الخروج
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
 
   </section>
 
