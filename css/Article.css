@@ -167,4 +167,8 @@ input::placeholder {
    padding: 10px;
 }
 
+.deatilsArticle .images img{
+   width: 100% !important;
 }
+}
+
