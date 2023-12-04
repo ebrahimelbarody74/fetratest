@@ -316,7 +316,7 @@ justify-content: space-evenly;
         }
         .active{
 
-            margin-top: 300px;
+            /* margin-top: 300px; */
         }
         .post{
             padding: 10px !important;
