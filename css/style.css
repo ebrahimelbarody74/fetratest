@@ -247,7 +247,7 @@ nav ul li a {
   color: #f0f0f0;
   text-align: right;
   font-family: Plus Jakarta Sans;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -680,7 +680,7 @@ main h2 {
 .fa-envelope {
   color: var(--text-color);
   margin-right: 1rem;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .form-textArea label {
@@ -731,7 +731,7 @@ main h2 {
 
 .button-form {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
@@ -800,7 +800,7 @@ footer {
 
 .text-footer h4 {
   color: #0a043c;
-  font-size: 44px;
+  font-size: 24px;
   font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
@@ -809,7 +809,7 @@ footer {
 
 .text-footer h4 span {
   color: #19be48;
-  font-size: 44px;
+  font-size: 24px;
   font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
@@ -1415,7 +1415,7 @@ main h2 {
   border-radius: 50px;
   border: none;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
@@ -1464,7 +1464,7 @@ main h2 {
 .fa-envelope {
   color: var(--text-color);
   margin-right: 1rem;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .form-message {
@@ -1532,7 +1532,7 @@ main h2 {
 
 .button-form {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
@@ -1627,7 +1627,7 @@ main h2 {
   }
   .toggle-btn h6{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 34px;
   }
   .toggle-btn i{
@@ -1757,7 +1757,7 @@ footer {
 
 .text-footer h4 {
   color: #0a043c;
-  font-size: 44px;
+  font-size: 24px;
   font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
@@ -1766,7 +1766,7 @@ footer {
 
 .text-footer h4 span {
   color: #19be48;
-  font-size: 44px;
+  font-size: 24px;
   font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
@@ -1881,7 +1881,7 @@ footer {
   background: var(--btn-color);
   position: absolute;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Plus Jakarta Sans", sans-serif;
 
   font-weight: 700;
@@ -1949,7 +1949,7 @@ footer {
 
   .text-footer h4 {
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 50px;
     word-wrap: break-word;
@@ -2334,7 +2334,7 @@ footer {
 
   .text-footer h4 {
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 50px;
     word-wrap: break-word;
@@ -2709,7 +2709,7 @@ footer {
   color: #fff;
   text-align: right;
   font-family: Cairo;
-  font-size: 44px;
+  font-size: 34px;
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
@@ -2732,7 +2732,7 @@ footer {
   color: #fff;
   text-align: center;
   font-family: Cairo;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -2745,7 +2745,7 @@ footer {
   display: flex;
   width: 50% !important;
   text-align: end;
-  padding: 1.5rem;
+  padding: 0.5rem;
   color: #666;
   font-family: Cairo;
   font-style: normal;
@@ -2766,7 +2766,7 @@ footer {
   color: #fff;
   text-align: right;
   font-family: Cairo;
-  font-size: 44px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
@@ -2820,7 +2820,7 @@ footer {
   color: #fff;
   text-align: right;
   font-family: Plus Jakarta Sans;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -2928,6 +2928,10 @@ footer {
   .footer-info .images img {
     width: 20%;
   }
+}
+
+.articlesContent .images img{
+  width: 100% !important;
 }
 
 @media (min-width: 1024px) {
