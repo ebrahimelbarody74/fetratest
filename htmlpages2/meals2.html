@@ -2,31 +2,33 @@
 <html lang="en">
 
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>تصميم وجيات</title>
 
-  <!-- link css -->
-  <link rel="stylesheet" href="../css/meals.css">
-  <link rel="stylesheet" href="../css/slidebar.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بياناتي</title>
+    <link rel="stylesheet" href="../css/meals.css">
 
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/information.css">
+  <link rel="stylesheet" href="../css/slidebar.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- font awesome -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
-    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
   <!-- animation -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 
 <body>
-    <section class="mt-4">
+
+     <section class="mt-4">
     <nav class="navbar navbar-expand-lg bg-body-tertiary   container " id="navbar">
       <div class="container-fluid">
         <div class="logo">
@@ -205,7 +207,7 @@
             <div class=" content-form " style="margin: 0;">
               <i style="color: #07d184 !important;width: 2rem;height: 2rem;" onclick="toggleSidebar()" id="sideBar"
                 class="fa-solid fa-bars icon-header"></i>
-              <h6> تصميم الوجبات </h6>
+              <h6> تصميم الوجبات</h6>
             </div>
             <div class="  ">
               <form action="" class="formAction">
@@ -338,7 +340,20 @@
 
 
   </section>
+  <div class="circle">
+    <div class="t-circle ">
+      <div class="four-circle"></div>
+      <div class="first-circle"></div>
 
+    </div>
+    <div class="e-circle">
+      <div class="secand-circle"></div>
+      <div class="three-circle"></div>
+
+
+    </div>
+
+  </div>
   <section id="meals" class="mt-5">
 
     <div class="container">
@@ -373,11 +388,11 @@
           <button class="btn">3</button>
         </div>
 
-        <h6 class="text-light mt-3 mb-3"> بروتين الوجبة التانية </h6>
+        <h6 class="text-light mt-3 mb-3">دهون الوجبة الاولى</h6>
         <div class="cardContainer">
           <div class="card" id="card1">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary"> لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card1')" class="btn green">+</button>
@@ -388,7 +403,7 @@
           </div>
           <div class="card" id="card2">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card2')" class="btn green">+</button>
@@ -399,7 +414,7 @@
           </div>
           <div class="card" id="card3">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card3')" class="btn green">+</button>
@@ -410,7 +425,7 @@
           </div>
           <div class="card" id="card4">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card4')" class="btn green">+</button>
@@ -421,7 +436,7 @@
           </div>
           <div class="card" id="card5">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card5')" class="btn green">+</button>
@@ -432,7 +447,7 @@
           </div>
           <div class="card" id="card6">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card6')" class="btn green">+</button>
@@ -443,7 +458,7 @@
           </div>
           <div class="card" id="card7">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card7')" class="btn green">+</button>
@@ -454,7 +469,7 @@
           </div>
           <div class="card" id="card8">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card8')" class="btn green">+</button>
@@ -465,7 +480,7 @@
           </div>
           <div class="card" id="card9">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">لحم بقري</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">زيت الزيتون</h6>
               <p class="card-p">الوزن : 50 كجم</p>
               <div class="btns d-flex justify-content-between">
                 <button onclick="increment('card9')" class="btn green">+</button>
@@ -507,7 +522,6 @@
 
   <!-- js -->
   <script src="../js/main.js"></script>
-
 </body>
 
 </html>
