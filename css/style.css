@@ -62,7 +62,7 @@ section .navbar#navbar {
 }
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: cursive !important;
   direction: rtl;
   background-color: var(--bg-color) !important;
 }
@@ -181,7 +181,6 @@ nav ul li a {
 /* style btn */
 .btn a {
   margin-left: 0.4em;
-  font-family: "Plus Jakarta Sans";
 
   font-size: 28px;
   font-weight: 700;
@@ -223,7 +222,6 @@ nav ul li a {
 }
 
 .text-hero h2 {
-  font-family: "Plus Jakarta Sans";
 
   color: var(--text-color);
   font-weight: 800;
@@ -235,7 +233,6 @@ nav ul li a {
 
 .text-hero h3 {
   color: var(--text-color);
-  font-family: "Plus Jakarta Sans";
 
   font-weight: 800;
   font-size: 50px;
@@ -246,7 +243,6 @@ nav ul li a {
 .text-hero p {
   color: #f0f0f0;
   text-align: right;
-  font-family: Plus Jakarta Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
@@ -311,7 +307,6 @@ nav ul li a {
   text-align: center;
   color: white;
   font-size: 60px;
-  font-family: Plus Jakarta Sans;
   font-weight: 800;
   line-height: 72px;
   word-wrap: break-word;
@@ -427,7 +422,6 @@ left: -50px; */
 .second-section-text p {
   color: var(--text-color);
   /* text-align: right; */
-  /* font-family: 'Plus Jakarta Sans'; */
   font-size: 40px;
   margin-top: 30px;
   font-weight: 300;
@@ -450,7 +444,6 @@ left: -50px; */
 .card-text h3 {
   color: #fff;
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -482,7 +475,6 @@ left: -50px; */
 .card-section h2 {
   /* padding: 50px 15px 30px 15px; */
   color: rgba(255, 255, 255, 1);
-  font-family: "Plus Jakarta Sans";
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -529,7 +521,6 @@ main h2 {
   color: var(--text-color);
   color: #fff;
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -621,7 +612,6 @@ main h2 {
 .text-main-card h3 {
   color: white;
   font-size: 25px;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: bold;
   line-height: 40px;
   word-wrap: break-word;
@@ -630,7 +620,6 @@ main h2 {
 .text-main-card p {
   color: white;
   font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-weight: 400;
   line-height: 39.13px;
@@ -684,7 +673,6 @@ main h2 {
 }
 
 .form-textArea label {
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   color: rgba(10, 4, 60, 0.85);
   font-size: 23px;
@@ -706,7 +694,6 @@ main h2 {
 .form-textArea textarea::placeholder {
   color: #808080;
   font-size: 23px;
-  font-family: "Mulish", sans-serif;
   font-weight: 400;
   text-transform: lowercase;
   word-wrap: break-word;
@@ -732,7 +719,6 @@ main h2 {
 .button-form {
   color: white;
   font-size: 20px;
-  font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
   word-wrap: break-word;
@@ -766,7 +752,6 @@ main h2 {
 
 .btn-form button {
   color: var(--text-color);
-  font-family: "Plus Jakarta Sans", sans-serif;
   border-radius: 50px;
   height: 70px;
   font-size: 37px;
@@ -776,7 +761,6 @@ main h2 {
   width: 50%;
   box-shadow: var(--shadow-set);
 
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 900;
   line-height: 32px;
   word-wrap: break-word;
@@ -801,7 +785,6 @@ footer {
 .text-footer h4 {
   color: #0a043c;
   font-size: 24px;
-  font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
   word-wrap: break-word;
@@ -810,7 +793,6 @@ footer {
 .text-footer h4 span {
   color: #19be48;
   font-size: 24px;
-  font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
   word-wrap: break-word;
@@ -819,7 +801,6 @@ footer {
 .text-footer p {
   color: rgba(10, 4, 60, 0.87);
   font-size: 32px;
-  font-family: Cairo;
   font-weight: 500;
   line-height: 35px;
   word-wrap: break-word;
@@ -829,7 +810,6 @@ footer {
   width: 250px;
   color: #0a043c;
   font-size: 26px;
-  font-family: "Cairo";
   font-weight: 500;
   height: 65px;
   border-radius: 25px;
@@ -840,7 +820,6 @@ footer {
   margin-top: 50px;
   color: black;
   font-size: 25px;
-  font-family: Cairo;
   font-weight: 700;
   word-wrap: break-word;
 }
@@ -860,7 +839,6 @@ footer {
   color: black !important;
   text-decoration: none;
   font-size: 19px;
-  font-family: "Cairo", sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -909,7 +887,6 @@ nav .btn {
 
 .btn a {
   margin-left: 0.4em;
-  font-family: "Plus Jakarta Sans";
 
   font-size: 28px;
   font-weight: 700;
@@ -1044,7 +1021,6 @@ left: -50px; */
 .second-section-text p {
   color: var(--text-color);
   /* text-align: right; */
-  /* font-family: 'Plus Jakarta Sans'; */
   font-size: 40px;
   margin-top: 30px;
   font-weight: 300;
@@ -1057,7 +1033,6 @@ left: -50px; */
   color: var(--text-color);
   color: #fff;
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -1072,7 +1047,6 @@ left: -50px; */
   color: var(--text-color);
   color: #fff;
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -1121,7 +1095,6 @@ main h2 {
   color: var(--text-color);
   color: #fff;
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -1193,7 +1166,6 @@ main h2 {
 .text-main-card h3 {
   color: white;
   font-size: 25px;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: bold;
   line-height: 40px;
   word-wrap: break-word;
@@ -1202,7 +1174,6 @@ main h2 {
 .text-main-card p {
   color: white;
   font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   line-height: 39.13px;
   /* word-wrap: break-word */
@@ -1309,7 +1280,6 @@ main h2 {
   margin-top: 20px;
   color: white;
   font-size: 20px;
-  font-family: Mulish;
   font-weight: 700;
   /* text-decoration: underline; */
   line-height: 33.3px;
@@ -1357,7 +1327,6 @@ main h2 {
 .input__form::placeholder {
   color: #808080;
   font-size: 20px;
-  font-family: Mulish;
   font-weight: 400;
   text-transform: lowercase;
   word-wrap: break-word;
@@ -1366,7 +1335,6 @@ main h2 {
 .user-details .input-box .details {
   color: rgba(10, 4, 60, 0.85);
   font-size: 20px;
-  font-family: Mulish;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 30px;
@@ -1390,7 +1358,6 @@ main h2 {
 .box__massege .details {
   color: rgba(10, 4, 60, 0.85);
   font-size: 20px;
-  font-family: Mulish;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 30px;
@@ -1416,7 +1383,6 @@ main h2 {
   border: none;
   color: white;
   font-size: 20px;
-  font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
   word-wrap: break-word;
@@ -1426,7 +1392,6 @@ main h2 {
   text-align: center;
   color: white;
   font-size: 60px;
-  font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 66px;
   word-wrap: break-word;
@@ -1499,7 +1464,6 @@ main h2 {
 
 .inputs-label label {
   /* margin-top: 0px !important; */
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   color: rgba(10, 4, 60, 0.85);
   font-size: 23px;
@@ -1512,7 +1476,6 @@ main h2 {
 }
 
 .form-textArea label {
-  font-family: "Mulish", sans-serif;
   font-weight: 700;
   color: rgba(10, 4, 60, 0.85);
   font-size: 23px;
@@ -1533,7 +1496,6 @@ main h2 {
 .button-form {
   color: white;
   font-size: 20px;
-  font-family: Plus Jakarta Sans;
   font-weight: 700;
   line-height: 32px;
   word-wrap: break-word;
@@ -1567,7 +1529,6 @@ main h2 {
 
 .btn-form button {
   color: var(--text-color);
-  font-family: "Plus Jakarta Sans", sans-serif;
   border-radius: 50px;
   height: 70px;
   font-size: 37px;
@@ -1577,7 +1538,6 @@ main h2 {
   width: 50%;
   box-shadow: var(--shadow-set);
 
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 900;
   line-height: 32px;
   word-wrap: break-word;
@@ -1758,7 +1718,6 @@ footer {
 .text-footer h4 {
   color: #0a043c;
   font-size: 24px;
-  font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
   word-wrap: break-word;
@@ -1767,7 +1726,6 @@ footer {
 .text-footer h4 span {
   color: #19be48;
   font-size: 24px;
-  font-family: Cairo;
   font-weight: 700;
   line-height: 60px;
   word-wrap: break-word;
@@ -1776,7 +1734,6 @@ footer {
 .text-footer p {
   color: rgba(10, 4, 60, 0.87);
   font-size: 32px;
-  font-family: Cairo;
   font-weight: 500;
   line-height: 35px;
   word-wrap: break-word;
@@ -1786,7 +1743,6 @@ footer {
   width: 250px;
   color: #0a043c;
   font-size: 26px;
-  font-family: "Cairo";
   font-weight: 500;
   height: 65px;
   border-radius: 25px;
@@ -1797,7 +1753,6 @@ footer {
   margin-top: 50px;
   color: black;
   font-size: 25px;
-  font-family: Cairo;
   font-weight: 700;
   word-wrap: break-word;
 }
@@ -1817,7 +1772,6 @@ footer {
   color: black !important;
   text-decoration: none;
   font-size: 19px;
-  font-family: "Cairo", sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1838,7 +1792,6 @@ footer {
   list-style: none;
   color: black;
   font-size: 19px;
-  font-family: Cairo;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -1870,7 +1823,6 @@ footer {
 .section-search input::placeholder {
   color: #808080;
   font-size: 10px !important;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   line-height: 45.15px;
   word-wrap: break-word;
@@ -1882,7 +1834,6 @@ footer {
   position: absolute;
   color: white;
   font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-weight: 700;
   line-height: 32px;
@@ -2708,7 +2659,6 @@ footer {
 .footer-content > div > p {
   color: #fff;
   text-align: right;
-  font-family: Cairo;
   font-size: 34px;
   font-style: normal;
   font-weight: 900;
@@ -2731,7 +2681,6 @@ footer {
   border: 0;
   color: #fff;
   text-align: center;
-  font-family: Cairo;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -2747,7 +2696,6 @@ footer {
   text-align: end;
   padding: 0.5rem;
   color: #666;
-  font-family: Cairo;
   font-style: normal;
   font-weight: 400;
   line-height: 60px;
@@ -2765,7 +2713,6 @@ footer {
 .footer-info p {
   color: #fff;
   text-align: right;
-  font-family: Cairo;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
@@ -2819,7 +2766,6 @@ footer {
 .contact-us > div p:last-child {
   color: #fff;
   text-align: right;
-  font-family: Plus Jakarta Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -2835,7 +2781,6 @@ footer {
   list-style-type: none;
   color: #fff;
   text-align: right;
-  font-family: Cairo;
   font-size: 1rem;
   font-style: normal;
   font-weight: 800;
@@ -2882,7 +2827,6 @@ footer {
     text-align: end;
     padding: 0px !important;
     color: #666;
-    font-family: Cairo;
     font-style: normal;
     font-weight: 400;
     line-height: 60px;
