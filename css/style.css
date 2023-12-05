@@ -3061,3 +3061,8 @@ footer {
   width: 17px !important;
   height: 17px !important;
 }
+
+
+.btn-text-hero:hover{
+  color: #fff;
+}
